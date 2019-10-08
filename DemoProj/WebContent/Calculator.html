@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+.div_left
+{
+ /* background-color:green; */
+width:50%;
+float:left;
+height:450px;
+}
+.div_right
+{
+ /* background-color:blue; */
+float:right;
+width:50%;
+height:450px;
+}
+form{
+margin:0 auto;
+width:50%;
+font-size:20px;
+
+}
+label{
+display:block;
+margin-bottom:2px;}
+h2{
+font-size:30px;}
+input{
+display:block;
+padding:4px;
+}
+</style>
+</head>
+<body>
+<div>
+<h2 style="font-size:40px;"><center>Calculator</center></h2>
+</div>
+<div>
+<div class="div_left">
+<h2><center>Eligibility Calculator</center></h2>
+<form method="post">
+<label>Monthly income</label><input type="text" name="monthlyincome"><br>
+<label>ROI</label><input type="text" name="roi"><br>
+<input type="submit" value="Calculate"><br>
+<label>Eligibility</label><input type="text" name="eligibility"><br>
+</form>
+</div>
+<div class="div_right">
+<h2><center>Emi Calculator</center></h2>
+<form method="post">
+<label>Loan</label><input type="text" name="loan"><br>
+<label>Tenure</label><input type="text" name="tenure"><br>
+<label>Roi</label><input type="text" name="roi"><br>
+<input type="submit" value="Calculate"><br>
+<label>Emi</label><input type="text" name="emi"><br>
+</form>
+</div>
+</div>
+<div>
+<center><form><input type="submit" value="Apply Now"></form></center>
+</div>
+</body>
+</html>
